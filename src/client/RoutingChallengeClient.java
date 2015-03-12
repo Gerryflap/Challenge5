@@ -319,6 +319,7 @@ public class RoutingChallengeClient implements Runnable {
 	}
 
 	private void UploadForwardingTable() {
+        System.out.println("SENT TABLE!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 		ConcurrentHashMap<Integer, ? extends AbstractRoute> table = this.protocol
 				.getForwardingTable();
 
