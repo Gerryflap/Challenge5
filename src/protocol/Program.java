@@ -17,7 +17,7 @@ public class Program {
 	private static String password = "pizzakoekjes";
 
 	// Change to your protocol implementation
-	private static Class<? extends IRoutingProtocol> protocolImpl = DummyRoutingProtocol.class;
+	private static Class<? extends IRoutingProtocol> protocolImpl = GerbenRoutingProtocol.class;
 
 	// Challenge server address
 	private static String serverAddress = "netsys.student.utwente.nl";
